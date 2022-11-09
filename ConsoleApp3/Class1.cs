@@ -25,6 +25,7 @@ namespace ConsoleApp3
             if (finishEvent != null)
             {
                 finishEvent(time);
+            
             }
         }
 
