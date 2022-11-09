@@ -16,10 +16,14 @@ namespace ConsoleApp3
         {
             Console.WriteLine($"Car {Model} drive {Fio} maxspeed {max_speed} time{time} ");
         }
+        public void Finish(string time)
+        {
+            Console.WriteLine(time);
+        }
     }
     class Rally
     {
-        public event Finish_time finishEvent;
+        public  Finish_time finishEvent;
         public void Finish(string time)
         {
             if (finishEvent != null)

@@ -23,13 +23,13 @@ static void Main(string[] args)
          Fio = Console.ReadLine(),
          max_speed = int.Parse(Console.ReadLine())
          },
- };
-            Rally Dakar = new Rally();
-            foreach (Car i in zaezd)
-            {
-                Car.finishEvent += i.Time;
-            }
-            teacher.Exam("Math");
-        }
-    }
+             };
+         Rally Dakar = new Rally();
+         foreach (Car i in zaezd)
+         {
+                Dakar.finishEvent += i.Time;
+         }
+         Dakar.Finish("120");
+        
+    
 }
